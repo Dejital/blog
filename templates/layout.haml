@@ -5,23 +5,26 @@
     %meta{ :charset => 'utf-8' }
     %meta{ :name => 'verify-postrank', :content => '2u5vtik' }
     
-    %link{ :rel => 'alternate', :type => 'application/atom+xml', :title => "THOMASJO", :href => 'http://feeds.feedburner.com/thomasjo' }
+    %link{ :rel => 'alternate', :type => 'application/atom+xml', :title => "SERGEYK", :href => 'http://feeds.feedburner.com/sergeyk' }
+    %link{ :rel => 'shortcut icon', :href => '/favicon.ico' }
     %link{ :rel => 'stylesheet', :href => '/css/main.css' }
 
   %body
     %header#nav
       %a{ :href => '/' }
-        %h1= @config[:author]
+        %img{ :alt => 'Sergey Kutserubov', :src => '/images/logo.png' }
 
     %section#content
       = yield
 
     %footer
-      = "Copyright &copy; 2009-#{Time.now.year} #{@config[:author]}. All rights reserved."
+      Copyright &copy; #{Time.now.year} #{@config[:author]}. Powered by
+      = succeed '.' do
+        %a{ :href => 'http://cloudhead.io/toto' } toto
 
     :javascript
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-5251876-2']);
+      _gaq.push(['_setAccount', 'UA-6623716-4']);
       _gaq.push(['_trackPageview']);
 
       (function() {

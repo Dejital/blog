@@ -35,32 +35,6 @@ h1, h2, h3 {
 header#nav {
   margin-bottom: 14px;
   text-align: right;
-
-  h1 {
-    display: inline-block;
-    padding: 10px 13px;
-    background: $theme-color;
-    font-family: $header-font;
-    font-size: 21px;
-    line-height: 1;
-    color: #FFF;
-    -webkit-transition: background-color 0.33s linear;
-    -moz-transition: background-color 0.33s linear;
-    -o-transition: background-color 0.33s linear;
-    transition: background-color 0.33s linear;
-
-    &:after {
-      content: ".";
-    }
-  }
-
-  a {
-    text-decoration: none;
-
-    &:hover h1 {
-      background: $theme-alternate-color;
-    }
-  }
 }
 
 #content {
@@ -184,5 +158,14 @@ footer {
   font-size: 11px;
   color: $unimportant-color;
   text-transform: uppercase;
+
+  a, a:active, a:visited {
+    color: $unimportant-color;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: $unimportant-color + #222;
+  }
 }
 
