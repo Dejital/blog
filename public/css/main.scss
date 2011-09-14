@@ -6,7 +6,7 @@ $unimportant-color: #888;
 $link-color: #06C;
 $link-visited-color: #96C;
 
-$header-font: Helvetica, Arial, sans-serif;
+$header-font: 'Cabin', Helvetica, Arial, sans-serif;
 $separator: 1px dotted #BBB;
 
 html {
@@ -30,6 +30,7 @@ section, header, article, footer {
 
 h1, h2, h3 {
   font-family: $header-font;
+  font-weight: 700;
 }
 
 header#nav {
