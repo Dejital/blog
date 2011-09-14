@@ -1,11 +1,7 @@
-My Blog
-=======
-
 This blog is primarily a fork of Thomas Johansen's beautiful blog
 [thomasjo.com](http://thomasjo.com/). It is powered by toto.
 
 My modifications thus far include:
 
   * Disqus comments
-
   * Karakuri tags and SEO-friendly page titles
