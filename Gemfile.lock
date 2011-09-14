@@ -7,6 +7,7 @@ GEM
     rack-rewrite (1.0.2)
     rdiscount (1.6.8)
     sass (3.1.1)
+    karakuri (0.1.2)
     toto (0.4.9)
       builder
       rack
@@ -21,3 +22,4 @@ DEPENDENCIES
   rack-rewrite
   sass
   toto
+  karakuri

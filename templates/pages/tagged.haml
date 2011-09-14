@@ -1,0 +1,17 @@
+- desired_tag = Karakuri::desired_tag(env["QUERY_STRING"])
+
+%article.post
+  %header
+    %h1
+      %a{ :href => ["/tagged?tag=",desired_tag].join }
+        Posts filed under
+        = surround '"','"' do 
+          = desired_tag
+
+  %section.post-body
+    %ul
+      - Karakuri::desired_articles(@articles, desired_tag).each do |article|
+        %li
+          %span
+            %a{ :href => article.path }
+              = article.title

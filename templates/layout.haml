@@ -1,7 +1,7 @@
 !!!
 %html{ :lang => 'en' }
   %head
-    %title= if title != @config[:title]; "#{title} | #{@config[:title]}"; else; title; end
+    %title= Karakuri::seo_friendly_title(@path, title, 'Sergey Kutserubov\'s Blog')
     %meta{ :charset => 'utf-8' }
     %meta{ :name => 'verify-postrank', :content => '2u5vtik' }
     

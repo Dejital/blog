@@ -1,5 +1,6 @@
 require 'rack-rewrite'
 require 'toto'
+require 'karakuri'
 require 'haml'
 
 # -----------------------------------------

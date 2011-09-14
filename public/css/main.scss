@@ -60,6 +60,15 @@ header#nav {
       font-size: 11px;
       text-transform: uppercase;
       color: $unimportant-color;
+
+      a, a:active, a:visited {
+        color: $unimportant-color;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        color: $unimportant-color + #222;
+      }
     }
   }
 

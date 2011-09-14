@@ -1,9 +1,10 @@
-%header
-  %h2
-    %a{ :href => '/archives/' } Archives
+%article.post
+  %header
+    %h1
+      %a{ :href => '/archives/' } Archives
 
-%section
-  %ul
-    - for entry in archives
-      %li
-        %a{ :href => entry.path }= entry.title
+  %section.post-body
+    %ul
+      - for entry in archives
+        %li
+          %a{ :href => entry.path }= entry.title
