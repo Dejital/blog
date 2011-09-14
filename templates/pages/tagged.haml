@@ -12,6 +12,5 @@
     %ul
       - Karakuri::desired_articles(@articles, desired_tag).each do |article|
         %li
-          %span
-            %a{ :href => article.path }
-              = article.title
+          %h2
+            %a{ :href => article.path }= article.title

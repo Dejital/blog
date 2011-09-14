@@ -7,4 +7,5 @@
     %ul
       - for entry in archives
         %li
-          %a{ :href => entry.path }= entry.title
+          %h2
+            %a{ :href => entry.path }= entry.title
