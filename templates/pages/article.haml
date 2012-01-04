@@ -2,13 +2,13 @@
   %header
     %span.metadata
       = date
-      = "/ Tagged:"
-      = Karakuri::tag_link_list(article[:tags])
+      -#= " / " + Karakuri::tag_link_list(article[:tags])
     %h1
       %a{ :href => self.path }= title
 
   %section.post-body
     = body
+    %a{ :href => '/', :class => 'signature' }= "⚡ " + @config[:author].split(/ /)[0]
 
   %section.feedback
     #disqus_thread

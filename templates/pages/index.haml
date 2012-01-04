@@ -4,12 +4,10 @@
       %header
         %span.metadata
           = article.date
-          = "/ Tagged:"
-          = Karakuri::tag_link_list(article[:tags])
+          -#= " / " + Karakuri::tag_link_list(article[:tags])
         %h1
           %a{ :href => article.path }= article.title
 
       %section.post-body
         = article.summary
         %a{ :href => article.path, :class => 'read-more' } Continue reading &rarr;
-

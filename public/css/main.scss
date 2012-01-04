@@ -126,6 +126,17 @@ header#nav {
         }
       }
 
+      a.signature {
+        color: $theme-color;
+        text-decoration: none;
+        font-weight: bold;
+        border: none;
+
+        &:hover {
+          color: $theme-alternate-color;
+        }
+      }
+
       h2 {
         margin: 10px 0;
         font-size: 21px;
@@ -158,6 +169,7 @@ header#nav {
       ul {
         list-style-type: circle;
       }
+
     }
   }
 }
