@@ -2,7 +2,7 @@
   - for article in articles[0..3]
     %article.post
       %header
-        %span.metadata
+        -#%span.metadata
           = article.date
           -#= " / " + Karakuri::tag_link_list(article[:tags])
         %h1

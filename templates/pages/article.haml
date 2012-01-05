@@ -1,6 +1,6 @@
 %article.post
   %header
-    %span.metadata
+    -#%span.metadata
       = date
       -#= " / " + Karakuri::tag_link_list(article[:tags])
     %h1
@@ -8,7 +8,7 @@
 
   %section.post-body
     = body
-    %a{ :href => '/', :class => 'signature' }= "⚡ " + @config[:author].split(/ /)[0]
+    %a{ :href => '#', :class => 'signature' }= "⚡ "
 
   %section.feedback
     #disqus_thread
