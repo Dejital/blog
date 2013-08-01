@@ -26,8 +26,8 @@ Encoding.default_external = Encoding::UTF_8
 # -----------------------------------------
 toto = Toto::Server.new do
   set :url,       "http://sergey.heroku.com/"
-  set :author,    "Sergey Kutserubov"                       # blog author
-  set :title,     "Sergey Kutserubov"                       # site title
+  set :author,    "Serge Nevsky"                            # blog author
+  set :title,     "Serge Nevsky"                            # site title
   set :root,      "index"                                   # page to load on /
   set :date,      lambda {|now| now.strftime("%m/%d/%Y") }  # date format for articles
   set :markdown,  :smart                                    # use markdown + smart-mode

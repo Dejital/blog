@@ -2,7 +2,7 @@ xml.instruct!
 xml.feed :xmlns => 'http://www.w3.org/2005/Atom' do
   xml.id @config[:url]
   xml.title @config[:title]
-  xml.link :rel => 'self', :href => 'http://feeds.feedburner.com/sergeyk'
+  xml.link :rel => 'self', :href => 'http://feeds.feedburner.com/snevsky'
   xml.updated articles.last[:date].strftime('%Y-%m-%dT%H:%M:%SZ') unless articles.empty?
   xml.author { xml.name @config[:author] }
 
