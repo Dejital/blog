@@ -1,4 +1,4 @@
 title: Hello World!
 tags: blog
 
-My name is Sergey Kutserubov. I enjoy art, music and working with computers. Thanks for coming!
+My name is Serge Nevsky. I enjoy art, music and working with computers. Thanks for coming!
