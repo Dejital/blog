@@ -1,6 +1,8 @@
 title: It's the little things in my Google Inbox
 tags: web, mobile
 
+![Google Inbox](/images/google-inbox-sun.png)
+
 [Google Inbox](//www.google.com/inbox/) isn't some great innovation in 
 the industry. It's just one step toward making e-mail fun again.
 
