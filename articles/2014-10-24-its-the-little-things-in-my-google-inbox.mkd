@@ -1,7 +1,7 @@
 title: It's the little things in my Google Inbox
 tags: web, mobile
 
-[Google Inbox](www.google.com/inbox/) isn't some great innovation in 
+[Google Inbox](//www.google.com/inbox/) isn't some great innovation in 
 the industry. It's just one step toward making e-mail fun again.
 
 We aren't forwarding e-mail hoaxes anymore, we're retweeting them on Twitter. 
