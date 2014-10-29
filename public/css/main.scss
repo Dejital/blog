@@ -185,7 +185,8 @@ footer {
 
   a, a:active, a:visited {
     color: $unimportant-color;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px $unimportant-color dotted;
   }
 
   a:hover {
